@@ -206,7 +206,9 @@
           <div class="container">
             <div class="clients__top">
               <h3 class="clients__title">Наши клиенты</h3>
-              <div class="clients__logo"><img src="static/images/general/clients-logo.png" alt=""></div>
+              <div class="clients__logo-el">
+                <div class="clients__logo"><img src="static/images/general/clients-logo.png" alt=""></div>
+              </div>
             </div>
             <div class="clients__wrap">
               <div class="clients__item"><a class="clients__item-img" href="#"><img src="static/images/general/clients-1.png" alt=""></a>
@@ -275,10 +277,12 @@
               <h4 class="footer__contacts-title">Связаться с нами</h4>
               <form action="">
                 <div class="form__top">
-                  <input type="text" name="" placeholder="Ваше имя">
-                  <input type="email" name="" placeholder="E-mail">
+                  <input class="form__elem" type="text" name="" placeholder="Ваше имя">
+                  <input class="form__elem" type="email" name="" placeholder="E-mail">
                 </div>
-                <textarea name="" cols="30" rows="10" placeholder="Сообщение"></textarea><a class="btn" href="#"> 
+                <textarea name="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                <input class="custom-checkbox" id="happy" type="checkbox" name="happy" value="yes">
+                <label for="happy">Согласие на обработку персональных данных</label><a class="btn" href="#"> 
                   <button>Отправить </button></a>
               </form>
             </div>
