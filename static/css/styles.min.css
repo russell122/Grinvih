@@ -7121,27 +7121,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut; }
 
-@font-face {
-  font-family: "PTSansRegular";
-  src: url("../fonts/PTSansRegular.eot");
-  src: url("../fonts/PTSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSansRegular.woff") format("woff"), url("../fonts/PTSansRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  font-family: "RobotoMedium";
-  src: url("../fonts/RobotoMedium.eot");
-  src: url("../fonts/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  font-family: "RobotoRegular";
-  src: url("../fonts/RobotoRegular.eot");
-  src: url("../fonts/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
 html {
   font-size: 16px;
   height: 100%; }
