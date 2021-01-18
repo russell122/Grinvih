@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="">
-    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="preload">
-<!--[if lt IE 9]>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" onload="this.rel='stylesheet'" as="style">
+    <link rel="preload" href="static/css/styles.min.css" onload="this.rel='stylesheet'" as="style" type="text/css"><!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
   </head>
   <body class="index-page">
@@ -329,15 +329,15 @@
             </div>
             <div class="footer__forms footer__item">
               <h4 class="footer__contacts-title">Связаться с нами</h4>
-              <form action="">
+              <form>
                 <div class="form__top">
-                  <input class="form__elem" type="text" name="" placeholder="Ваше имя">
-                  <input class="form__elem" type="email" name="" placeholder="E-mail">
+                  <input class="form__elem" type="text" placeholder="Ваше имя">
+                  <input class="form__elem" type="email" placeholder="E-mail">
                 </div>
-                <textarea name="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                <textarea cols="30" rows="10" placeholder="Сообщение"></textarea>
                 <input class="custom-checkbox" id="happy" type="checkbox" name="happy" value="yes">
-                <label for="happy">Согласие на обработку персональных данных</label><a class="btn" href="#"> 
-                  <button>Отправить </button></a>
+                <label for="happy">Согласие на обработку персональных данных</label>
+                <button class="btn">Отправить </button>
               </form>
             </div>
           </div>
